@@ -19,7 +19,6 @@
   },
   "devDependencies": {
     "browserify": "^4.1.6",
-    "browserify-shim": "^3.5.0",
-    "lui-desktop": "git+ssh://git@github.com:pellucidanalytics/Lui.js.git#desktop-0.4.10"
+    "browserify-shim": "^3.5.0"
   }
 }
