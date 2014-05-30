@@ -1,0 +1,25 @@
+{
+  "name": "complex-browserify",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "browser": {
+    "jquery": "./assets/jquery.js"
+  },
+  "browserify": {
+    "transform": ["browserify-shim"]
+  },
+  "browserify-shim": {
+    "jquery": "$"
+  },
+  "devDependencies": {
+    "browserify": "^4.1.6",
+    "browserify-shim": "^3.5.0",
+    "lui-desktop": "git+ssh://git@github.com:pellucidanalytics/Lui.js.git#desktop-0.4.10"
+  }
+}
